@@ -2,7 +2,7 @@
 
 Like OS X admin bar menu icons, but for WordPress. Easy access to common tasks in the top right admin bar.
 
-![Topdash](https://github.com/urre/blob/master/topdash.png)
+![Topdash](https://github.com/urre/topdash/blob/master/topdash.png)
 
 ## Install
 1. Install plugin from the WordPress plugin directory (coming soon...)
