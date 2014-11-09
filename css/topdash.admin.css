@@ -1,0 +1,46 @@
+#wpadminbar .dashbar-icon {
+	color: #999;
+	font-family: dashicons;
+	font-size: 1.6em;
+	display: block;
+}
+
+#wpadminbar .dashbar-icon:hover {
+	color: #0099d5;
+}
+
+.dashbar-icon--edit:after {
+    content: "\f464";
+}
+
+.dashbar-icon--pages:after {
+    content: "\f105";
+}
+
+.dashbar-icon--widgets:after {
+    content: "\f116";
+}
+
+.dashbar-icon--dashboard:after {
+    content: "\f226";
+}
+
+.dashbar-icon--media:after {
+    content: "\f104";
+}
+
+.dashbar-icon--menus:after {
+    content: "\f333";
+}
+
+.dashbar-icon--menus:after {
+    content: "\f333";
+}
+
+.dashbar-icon--settings:after {
+    content: "\f108";
+}
+
+.dashbar-icon--external:after {
+    content: "\f504";
+}
