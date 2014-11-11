@@ -1,6 +1,6 @@
 # Topdash
 
-Like OS X admin bar menu icons, but for WordPress. Easy access to common tasks in the top right admin bar.
+Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admin menus in the top right admin bar.
 
 ![Topdash](https://github.com/urre/topdash/blob/master/topdash.png)
 
@@ -18,4 +18,6 @@ Like OS X admin bar menu icons, but for WordPress. Easy access to common tasks i
 
 ## Changelog
 
-1.0.0 First version released
+#### 1.0.0
+
+First version released
