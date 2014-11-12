@@ -5,7 +5,7 @@ Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admi
 ![Topdash](https://github.com/urre/topdash/blob/master/topdash.png)
 
 ## Install
-1. Install plugin from the WordPress plugin directory (coming soon...)
+1. Install plugin from the [WordPress plugin directory](https://wordpress.org/plugins/topdash/)
 
 ## Install manually
 1. Download [zip](https://github.com/urre/topdash/archive/master.zip) and extract
