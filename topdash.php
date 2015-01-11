@@ -113,7 +113,7 @@ class Topdash {
             array(
                 'id' => 'topdash_external',
                 'title' => __( '<span class="dashbar-icon dashbar-icon--external"></span>' ),
-                'href' => site_url( )
+                'href' => home_url( )
             )
         );
 
