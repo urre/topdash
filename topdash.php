@@ -3,7 +3,7 @@
 * Plugin Name: Topdash
 * Plugin URI: http://github.com/urre/topdash
 * Description: Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admin menus in the top right admin bar.
-* Version: 1.0.1
+* Version: 1.1.0
 * Author: Urban Sanden
 * Author URI: http://urre.me
 * License: GPL2
@@ -41,14 +41,29 @@ class Topdash {
         # Add the icons
         add_action( 'wp_before_admin_bar_render', array( $this, 'add_icons' ) );
 
+        # Get plugin paths, supoprt both Must Use Plugins and standard
+        $this->constants();
+
+    }
+
+    private function constants() {
+        if ( ! defined( 'TOPDASH_PLUGIN_URL' ) ) {
+            $plugin_url = plugin_dir_url( __FILE__ );
+            define( 'TOPDASH_PLUGIN_URL', $plugin_url );
+        }
+
+        if ( ! defined( 'TOPDASH_PLUGIN_URL' ) ) {
+            $plugin_url = plugin_dir_url( __FILE__ );
+            define( 'TOPDASH_PLUGIN_URL', $plugin_url );
+        }
     }
 
     public function register_admin_styles() {
-        wp_enqueue_style( 'topdash-plugin-styles', plugins_url( 'topdash/css/topdash.admin.css' ) );
+        wp_enqueue_style( 'topdash-plugin-styles', TOPDASH_PLUGIN_URL . 'css/topdash.admin.css' );
     }
 
     public function register_admin_scripts() {
-        wp_enqueue_script( 'topdash-admin-script', plugins_url( 'topdash/js/topdash.admin.js' ), array('jquery') );
+        wp_enqueue_script( 'topdash-admin-script', TOPDASH_PLUGIN_URL . 'js/topdash.admin.js', array('jquery') );
     }
 
     # Add the icons

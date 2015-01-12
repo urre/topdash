@@ -17,6 +17,7 @@ Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admi
 1. Deactivate plugin
 
 ## Changelog
-
++ 1.1.0: Added support for Must Use Plugins
++ 1.0.2: Changed from site_url to home_url
 + 1.0.1: Icons now display both in admin and on the front end
 + 1.0.0: First version released

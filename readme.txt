@@ -4,7 +4,7 @@ Donate link: http://urre.me/donate
 Tags: icons, admin bar, menu, links
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,12 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 1. Topdash
 
 == Changelog ==
+
+= 1.1.0 =
+* Added support for Must Use Plugins
+
+= 1.0.2 =
+* Changed from site_url to home_url
 
 = 1.0.1 =
 * Icons now display both in admin and on the front end
