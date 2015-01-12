@@ -3,7 +3,7 @@
 * Plugin Name: Topdash
 * Plugin URI: http://github.com/urre/topdash
 * Description: Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admin menus in the top right admin bar.
-* Version: 1.0.0
+* Version: 1.0.1
 * Author: Urban Sanden
 * Author URI: http://urre.me
 * License: GPL2
