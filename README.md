@@ -18,6 +18,5 @@ Like OS X admin bar menu icons, but for WordPress. Easy access to common wp-admi
 
 ## Changelog
 
-#### 1.0.0
-
-First version released
++ 1.0.1: Icons now display both in admin and on the front end
++ 1.0.0: First version released
