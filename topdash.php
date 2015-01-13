@@ -51,11 +51,6 @@ class Topdash {
             $plugin_url = plugin_dir_url( __FILE__ );
             define( 'TOPDASH_PLUGIN_URL', $plugin_url );
         }
-
-        if ( ! defined( 'TOPDASH_PLUGIN_URL' ) ) {
-            $plugin_url = plugin_dir_url( __FILE__ );
-            define( 'TOPDASH_PLUGIN_URL', $plugin_url );
-        }
     }
 
     public function register_admin_styles() {
