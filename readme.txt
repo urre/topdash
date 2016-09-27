@@ -1,9 +1,9 @@
 === Topdash ===
 Contributors: urre
-Donate link: http://urre.me/donate
+Donate link: https://www.paypal.me/urbansanden
 Tags: icons, admin bar, menu, links
 Requires at least: 3.0
-Tested up to: 4.2.2
+Tested up to: 4.6.1
 Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
